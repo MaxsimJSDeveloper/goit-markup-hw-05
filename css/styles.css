@@ -526,8 +526,13 @@ footer .container {
 
 /* ========================= SUBSCRIBE FORM ==================== */
 
+.container-form-footer {
+  margin-left: 80px;
+}
+
 .subscribe-form {
   display: flex;
+  gap: 24px;
 }
 
 .form-label-text {
@@ -538,18 +543,19 @@ footer .container {
   margin-bottom: 16px;
 }
 
-.form-label-conteiner {
-  display: flex;
-}
-
 .form-input {
   width: 264px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background: #2e2f42;
   margin-right: 24px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #ffffff;
 }
 
 .form-input::placeholder {
@@ -566,17 +572,17 @@ footer .container {
   align-items: center;
   gap: 16px;
   border-radius: 4px;
-  background: #4d5ae5;
-}
-
-.form-button-text {
-  color: #fff;
-  text-align: center;
+  min-width: 165px;
+  height: 40px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border: none;
 }
 
 .form-button-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
