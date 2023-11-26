@@ -553,7 +553,6 @@ footer .container {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  padding-left: 16px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: #ffffff;
 }
@@ -580,7 +579,6 @@ footer .container {
   color: #ffffff;
   background-color: #4d5ae5;
   border: none;
-  font-family: 'Roboto', sans-serif;
 }
 
 .form-button-icon {
