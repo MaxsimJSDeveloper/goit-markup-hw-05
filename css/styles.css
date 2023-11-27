@@ -610,8 +610,17 @@ footer .container {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.close-button:hover .close-button:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
 .wodal-window-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.wodal-window-close-icon:hover .wodal-window-close-icon:focus {
+  fill: #ffffff;
 }
 
 .modal-window-text {
@@ -651,12 +660,20 @@ footer .container {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.input-modal-form:focus {
+  border-color: #4d5ae5;
+}
+
 .input-icon {
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-icon:focus {
+  fill: #4d5ae5;
 }
 
 .container-comment-form {
@@ -677,6 +694,10 @@ footer .container {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.text-comment:focus {
+  border-color: #4d5ae5;
 }
 
 .check-conteiner-form {
