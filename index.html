@@ -636,14 +636,14 @@
       </div>
     </footer>
 
-    <div class="overlay-container">
-      <div class="overlay-icon-conteiner">
+    <div class="modal-window-container">
+      <div class="modal-window-icon-conteiner">
         <button class="close-button" type="button">
           <svg
-            class="overlay-icon"
+            class="wodal-window-close-icon"
             height="8"
             width="8"
-            aria-label="overlay-icon"
+            aria-label="close-icon"
           >
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -651,9 +651,9 @@
         <p class="modal-window-text">
           Leave your contacts and we will call you back
         </p>
-        <form class="overlay-form" name="overlay-form" autocomplete="off">
+        <form class="modal-form" name="modal-form" autocomplete="off">
           <div class="container-modal-form">
-            <label class="overlay-form-label" for="username">Name</label>
+            <label class="modal-form-label" for="username">Name</label>
             <div class="container-input-icon">
               <input
                 class="input-modal-form"
@@ -672,7 +672,7 @@
             </div>
           </div>
           <div class="container-modal-form">
-            <label class="overlay-form-label" for="user-phone">Phone</label>
+            <label class="modal-form-label" for="user-phone">Phone</label>
             <div class="container-input-icon">
               <input
                 class="input-modal-form"
@@ -691,7 +691,7 @@
             </div>
           </div>
           <div class="container-modal-form">
-            <label class="overlay-form-label" for="user-email">Email</label>
+            <label class="modal-form-label" for="user-email">Email</label>
             <div class="container-input-icon">
               <input
                 class="input-modal-form"
@@ -710,7 +710,7 @@
             </div>
           </div>
           <div class="container-comment-form">
-            <label for="user-comment" class="overlay-form-label">Comment</label>
+            <label class="modal-form-label" for="user-comment">Comment</label>
             <textarea
               class="text-comment"
               name="user-comment"
@@ -722,19 +722,29 @@
           </div>
           <div class="check-conteiner-form">
             <input
-              class="check visually-hidden"
+              class="visually-hidden check"
               type="checkbox"
               id="user-privacy"
               value="true"
               name="user-privacy"
             />
             <label class="check-label-text" for="user-privacy">
+              <span class="check-board">
+                <svg
+                  class="click"
+                  width="10"
+                  height="8"
+                  aria-label="icon-vector"
+                >
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
               <input type="checkbox" name="answer" value="earth" />
-              I accept the terms and conditions of the
-              <a href="index.html">Privacy Policy</a>
+              "I accept the terms and conditions of the"
+              <a class="check-link-text" href="index.html">Privacy Policy</a>
             </label>
           </div>
-          <button class="form-button" type="submit"><p>Send</p></button>
+          <button class="form-button" type="submit">Send</button>
         </form>
       </div>
     </div>
