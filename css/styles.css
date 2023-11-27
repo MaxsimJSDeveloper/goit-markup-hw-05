@@ -542,7 +542,7 @@ footer .container {
   letter-spacing: 0.04em;
 }
 
-.form-button {
+.subscribe-form-button {
   display: flex;
   padding: 8px 24px;
   justify-content: center;
@@ -709,7 +709,7 @@ footer .container {
   color: #4d5ae5;
 }
 
-.form-button {
+.modal-form-button {
   display: block;
   min-width: 169px;
   height: 56px;
