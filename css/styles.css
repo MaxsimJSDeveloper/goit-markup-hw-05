@@ -620,9 +620,9 @@ footer .container {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.wodal-window-close-icon:hover,
-.wodal-window-close-icon:focus {
-  fill: #ffffff;
+.modal-window-close-icon:hover,
+.modal-window-close-icon:focus {
+  fill: #fff;
 }
 
 .modal-window-text {
@@ -674,7 +674,7 @@ footer .container {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-icon:focus {
+.input-modal-form:focus + .input-icon {
   fill: #4d5ae5;
 }
 
