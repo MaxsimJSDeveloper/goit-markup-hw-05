@@ -661,6 +661,9 @@
                 type="text"
                 name="user-name"
                 id="user-name"
+                required
+                pattern="[A-Z a-z А-Я а-я]"
+                title="Maksym"
               />
               <svg
                 class="input-icon"
@@ -680,6 +683,8 @@
                 type="tel"
                 name="user-phone"
                 id="user-phone"
+                required
+                pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
               />
               <svg
                 class="input-icon"
@@ -699,6 +704,7 @@
                 type="email"
                 name="user-email"
                 id="user-email"
+                required
               />
               <svg
                 class="input-icon"
