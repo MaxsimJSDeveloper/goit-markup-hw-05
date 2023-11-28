@@ -620,9 +620,9 @@ footer .container {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-close-icon:hover,
-.modal-window-close-icon:focus {
-  fill: #fff;
+.close-button:hover,
+.close-button:focus {
+  fill: #ffffff;
 }
 
 .modal-window-text {
@@ -711,6 +711,12 @@ footer .container {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+
+input:checked + label > span {
+  background-color: #404bbf;
+  fill: #f4f4fd;
+  border: none;
 }
 
 .check-board {
