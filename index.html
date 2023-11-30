@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WebStudio</title>
   </head>
 
   <body>
@@ -637,7 +637,7 @@
     </footer>
 
     <!-- ************************************* MODAL WINDOW ************************************  -->
-    <div class="modal-window-container">
+    <div class="modal-window-container is-open">
       <div class="modal-window-icon-conteiner">
         <button class="close-button" type="button">
           <svg
@@ -662,7 +662,7 @@
                 name="user-name"
                 id="user-name"
                 required
-                pattern="[A-Z a-z А-Я а-я]"
+                pattern="[A-Za-zА-Яа-я]"
                 title="Maksym"
               />
               <svg
@@ -732,6 +732,7 @@
               id="user-privacy"
               value="true"
               name="user-privacy"
+              required
             />
             <label class="check-label-text" for="user-privacy">
               <span class="check-board">
