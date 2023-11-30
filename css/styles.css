@@ -688,6 +688,11 @@ footer .container {
   fill: #4d5ae5;
 }
 
+.container-comment-form {
+  margin-bottom: 16px;
+  line-height: 1.15;
+}
+
 .text-comment {
   width: 100%;
   height: 120px;
@@ -710,6 +715,7 @@ footer .container {
 
 .check-conteiner-form {
   margin-bottom: 24px;
+  line-height: 1.15;
 }
 
 .check-label-text {
